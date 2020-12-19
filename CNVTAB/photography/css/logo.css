@@ -1,0 +1,153 @@
+.Polaroid{
+      transform: translate(120px,80px); 
+}
+.Camera{
+      transform: translate(0px,0px); 
+}
+.Opolaroid{
+    width: 100px;
+    height: 130px;
+    background-color: #000;
+    color: white;
+}
+.Opolaroid{
+     transform: rotate(30deg);  
+}
+.Ipolaroid{
+    width: 80px;
+    height: 90px;
+    background-color: #fff;
+    color: white;
+}
+.Ipolaroid{
+    transform: translate(10px,10px); 
+}
+
+.CaptureB{
+    width: 20px;
+    height: 10px;
+    background-color: #000;
+    color: white;
+    transform: translate(20px,0px); 
+}
+.Bcamera{
+    width: 160px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 5%;
+}
+.Olens{
+  height: 80px;
+  width: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+.Olens{
+    transform: translate(45px,10px); 
+}
+.Flash{
+  height: 10px;
+  width: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #fff;
+  display: inline-block;
+  transform: translate(50px,-45px); 
+}
+.Ilens{
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000;
+  display: inline-block
+}
+.Ilens{
+    transform: translate(2px,2px); 
+}
+.logo{
+    transform: matrix(0.4,0,0,0.4,-20,-100);  
+    position: static;
+}
+
+.SecondLogo{
+    transform: matrix(0.32,0,0,0.32,-20,-285);  
+    position: static;
+}
+.curve{
+    width: 1000px;
+    height: 50px;
+    position: relative;
+  }
+  
+  .curve:after {
+      content: '';
+      width: 90%;
+      position: absolute;
+      height: 100px;
+      display: block;
+      border-bottom: 10px solid #2a3439;
+      border-radius: 50%;
+      left: 10%;
+  }
+  
+  .Opolaroid{
+      width: 100px;
+      height: 130px;
+      background-color: #000;
+      color: white;
+  }
+  .Ipolaroid{
+      width: 80px;
+      height: 90px;
+      background-color: #fff;
+  }
+  .Ipolaroid{
+      transform: translate(10px,10px); 
+  }
+  .Polaroid1{
+       transform:matrix(0.99,-0.10,0.10,0.99,284,60); 
+  }
+  .clip1{
+     width: 20px;
+     height: 50px;
+     border-radius: 20%;
+     background-color: #996633;
+     transform: translate(318px,-100px);
+  }
+  .Polaroid2{ 
+      transform:matrix(1.00,0.02,-0.02,1.00,410,-105); 
+  }
+  .clip2{
+     width: 20px;
+     height: 50px;
+     border-radius: 20%;
+     background-color: #996633;
+     transform: translate(455px,-280px);
+  }
+  .Polaroid3{ 
+    transform:matrix(1.00,-0.03,0.03,1.00,550,-290); 
+  
+  }
+  .clip3{
+     width: 20px;
+     height: 50px;
+     border-radius: 20%;
+     background-color: #996633;
+     transform: translate(585px,-455px);
+  }
+  .Polaroid4{
+  transform:matrix(0.91,-0.41,0.41,0.91,660,-535); 
+  
+  }
+  .clip4{
+     width: 20px;
+     height: 50px;
+     border-radius: 20%;
+     background-color: #996633;
+     transform: translate(720px,-640px);
+  }
+  

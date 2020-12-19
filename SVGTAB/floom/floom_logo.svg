@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="100"
+   height="50"
+   viewBox="0 0 100 50"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.4729px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.955231"
+       x="2.8947871"
+       y="39.957439"
+       id="text12"
+       transform="scale(1.046867,0.95523118)"><tspan
+         id="tspan10"
+         x="2.8947871"
+         y="39.957439"
+         style="font-size:25.4729px;stroke-width:0.955231">FLO  M</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.4728px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.955231"
+       x="50.417553"
+       y="27.796242"
+       id="text16"
+       transform="scale(1.0468671,0.95523109)"><tspan
+         id="tspan14"
+         x="50.417553"
+         y="27.796242"
+         style="font-size:25.4728px;stroke-width:0.955231">O</tspan></text>
+  </g>
+</svg>

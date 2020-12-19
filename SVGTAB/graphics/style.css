@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    height: 50%;
+    padding-top: 5%;
+    z-index: 1;
+}
+.column2 {
+    float: left;
+    width: 33%;
+    height: 50%;
+    padding-top: 5%;
+    z-index: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+    overflow-x: hidden;
+    z-index: 1;
+}
+.graph1{
+    margin: auto;
+    width: 200px;
+    height: 300px;
+}

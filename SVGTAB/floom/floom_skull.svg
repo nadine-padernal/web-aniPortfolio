@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <g
+       id="g1208"
+       transform="matrix(2.0359916,0,0,2.0345331,-64.22464,-95.233309)">
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="m 61.503869,79.295117 0.178571,6.189042 -2.335978,0.126269 0.06313,-3.724937 -1.641498,-0.126269 0.06313,3.598668 -2.841054,0.06313 v -3.472398 l -1.767767,0.06313 -0.189403,3.34613 -2.588516,-0.06314 0.06313,-6.250318 c 0,0 -4.281851,-0.236377 -4.408904,-4.641318 -0.127054,-4.40494 0.960221,-6.142739 5.671594,-7.480513 3.1623,-0.897921 6.533646,-0.41705 9.670416,0.566353 3.500609,1.097469 6.396712,7.0819 0.06314,11.806158 z"
+         id="path1186" />
+      <ellipse
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#333333;fill-opacity:0.980392;fill-rule:evenodd;stroke:none;stroke-width:1.3214;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000;stop-opacity:1"
+         id="path1188"
+         cx="51.896587"
+         cy="72.794113"
+         rx="1.8940361"
+         ry="2.0203052" />
+      <ellipse
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#333333;fill-opacity:0.980392;fill-rule:evenodd;stroke:none;stroke-width:1.3214;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000;stop-opacity:1"
+         id="path1188-9"
+         cx="58.904522"
+         cy="72.73098"
+         rx="1.8940361"
+         ry="2.0203052" />
+    </g>
+  </g>
+</svg>

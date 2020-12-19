@@ -1,0 +1,72 @@
+.curve{
+  width: 1000px;
+  height: 50px;
+  position: relative;
+}
+
+.curve:after {
+    content: '';
+    width: 60%;
+    position: absolute;
+    height: 100px;
+    display: block;
+    border-bottom: 8px solid #B0B0B0;
+    border-radius: 50%;
+    left: 10%;
+}
+
+.Opolaroid{
+    width: 100px;
+    height: 130px;
+    background-color: #000;
+    color: white;
+}
+.Ipolaroid{
+    width: 80px;
+    height: 90px;
+    background-color: #fff;
+}
+.Ipolaroid{
+    transform: translate(10px,10px); 
+}
+.Polaroid1{
+     transform:matrix(0.99,-0.10,0.10,0.99,200,5); 
+}
+.clip1{
+   width: 20px;
+   height: 50px;
+   border-radius: 20%;
+   background-color: #996633;
+   transform: translate(250px,-100px);
+}
+.Polaroid2{ transform:matrix(1.00,0.02,-0.02,1.00,330,-105); 
+}
+.clip2{
+   width: 20px;
+   height: 50px;
+   border-radius: 20%;
+   background-color: #996633;
+   transform: translate(370px,-280px);
+}
+.Polaroid3{ 
+  transform:matrix(1.00,-0.03,0.03,1.00,450,-310); 
+
+}
+.clip3{
+   width: 20px;
+   height: 50px;
+   border-radius: 20%;
+   background-color: #996633;
+   transform: translate(490px,-455px);
+}
+.Polaroid4{
+transform:matrix(0.91,-0.41,0.41,0.91,525,-725); 
+
+}
+.clip4{
+   width: 20px;
+   height: 50px;
+   border-radius: 20%;
+   background-color: #996633;
+   transform: translate(615px,-655px);
+}

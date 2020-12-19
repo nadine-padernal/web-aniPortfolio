@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#content{
+    width:100%;
+    height: 62%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.background {
+	width: 100%;
+  position: relative;
+}
+
+.clouds {
+  width: 200x;
+  height: 300px;
+  position: absolute;
+}
+
+
+/*-------content background---*/
+.content-bg{
+    width: 100%;
+    z-index: -1;
+}
+
+.bird{
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.branch {
+  height: 100%;
+  position: absolute;
+} 
+.box-mountain{
+    margin: auto;
+    margin-top: 20%;
+    width: 70%;
+    height: 50%;
+}
+.box-forest{
+    margin: auto;
+    margin-top: 20%;
+    width: 70%;
+    height: 50%;
+}
+.box-water{
+    margin: auto; 
+    margin-top: 20%;
+    width: 70%;
+    height: 50%;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 16%;
+  width: 100%;
+}
+.tagline{
+  width: 50%;
+  height: 10%;
+  position: fixed;
+  left: 25%;
+  bottom: 22%;
+  text-align: center;
+}
+.tagline h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 3.7vw; 
+  font-style: italic; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+}
+.middle {
+  height: 100%;
+  opacity: 0;
+  position: relative;
+  transform: translate(0px, -295px);
+}
+
+.box-mountain:hover g{
+  opacity: 0.3;
+}
+
+.box-mountain:hover .middle {
+  opacity: 1;
+}
+
+#Mbtn {
+  height: 15%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  font-size: 16px;
+  float: right;
+}
+.box-forest:hover g{
+  opacity: 0.3;
+}
+
+.box-forest:hover .middle {
+  opacity: 1;
+}
+#Fbtn {
+  height: 15%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  font-size: 16px;
+  float: right;
+}
+.box-water:hover g{
+  opacity: 0.3;
+}
+
+.box-water:hover .middle {
+  opacity: 1;
+}
+#Wbtn {
+  height: 15%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  font-size: 16px;
+  float: right;
+  animation: change 8s;
+}
+/* -------MODAL--------*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+  z-index: 1;
+}
+
+/* The Close Button */
+.Mclose {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Mclose:hover,
+.Mclose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Fclose {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Fclose:hover,
+.Fclose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Wclose {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Wclose:hover,
+.Wclose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Cclose {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Cclose:hover,
+.Cclose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fbIcon{
+  width: 30%;
+  height: 30%;
+  position: relative;
+  float: left;
+  margin-top: 13%;
+}
+.instaIcon{
+  width: 30%;
+  height: 30%;
+  position: relative;
+  float: left;
+  margin-top: 13%;
+}
+.twitIcon{
+  width: 30%;
+  height: 30%;
+  position: relative;
+  float: left;
+  margin-top: 13%;
+}
+
+#Cbtn{
+  padding: 1% 3%;
+  font-size: 1vw;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: auto;
+  left: 60%;
+  top: 50%;
+  position: relative;
+}
+
+#Cbtn:hover {background-color: #3e8e41}
+
+#Cbtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}

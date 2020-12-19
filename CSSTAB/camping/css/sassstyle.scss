@@ -1,0 +1,207 @@
+:root {
+    --navbar-color:rgb(203,235,255);
+    --clouds-color: #f6f6f6;
+    --h1-color: #000;
+    --row-color: rgb(255, 255, 255);
+    --boxmountain-color: #f7f3f3;
+    --boxforest-color: #f7f3f3;
+    --boxwater-color: #f7f3f3;
+    --birdbody-color:#FFFF66;
+    --birdwing-color: #F0E68C;
+    --birdtail-color: #FFFACD;
+    --branch-color: #DEB887;
+    --notes-color: #e200aa;
+    --borderbox-color: #525252;
+    --icon-color:#000000;
+    --gradient-navbar: linear-gradient(360deg, #fefefe 0%, #00a4e4 74%);
+    --gradient-footer: linear-gradient(180deg, #e4ffe6 0%, #9cf19c 74%);
+    --btn-anicolor1: #0ba74c;
+    --btn-anicolor2: #240c8f;
+    --btn-anicolor3: #918625;
+    --tagline-color: #000000;
+    --modal-bgcolor: #ffffff;
+    --modal-txtcolor: #000000;
+    --modal-acolor: #f840d0;
+}
+  [data-theme="dark"] {
+    --navbar-color:rgb(110, 110, 110);
+    --clouds-color: #d3d2d2;
+    --h1-color: #fff;
+    --row-color: rgb(173, 173, 173);
+    --boxmountain-color: #fdf9f9;
+    --boxforest-color: #fdf9f9;
+    --boxwater-color: #fdf9f9;
+    --birdbody-color:rgb(116, 20, 20);
+    --birdwing-color: #a05757;
+    --birdtail-color: #d46565;
+    --branch-color: #553e20;
+    --notes-color: #000872;
+    --borderbox-color: #f0efef;
+    --icon-color:#ffffff;
+    --gradient-navbar: linear-gradient(360deg, #8b8b8b 0%, #0a2530 74%);
+    --gradient-footer: linear-gradient(180deg, #90ad92 0%, #144614d8 74%);
+    --btn-anicolor1: #18ec70;
+    --btn-anicolor2: #3c18db;
+    --btn-anicolor3: #b6a933;
+    --tagline-color: #ffffff;
+    --modal-bgcolor: #000000;
+    --modal-txtcolor: #ffffff;
+    --modal-acolor: #5340f8;
+}
+  .navbar{
+    width:100%;
+    height: 18%;
+    background-image: var(--gradient-navbar);
+}
+.logo h1{
+    color:var(--h1-color);
+}
+#content .row{
+    background-color: var(--row-color);
+}
+.tagline{
+  color: var(--tagline-color);
+}
+.box-mountain{
+  background-color: var(--boxmountain-color);
+  border: 3px solid var(--borderbox-color);
+}
+.box-forest{
+  background-color: var(--boxforest-color);
+  border: 3px solid var(--borderbox-color);
+}
+.box-water{
+  background-color: var(--boxwater-color);
+  border: 3px solid var(--borderbox-color);
+}
+#Mbtn{
+  background-color: #c5c5c5;
+  animation: change 5s linear infinite;
+}
+#Fbtn{
+  background-color: #c5c5c5;
+  animation: change 5s linear infinite;
+}
+#Wbtn{
+  background-color: #c5c5c5;
+  animation: change 5s linear infinite;
+}
+@keyframes change{
+  0%{
+    background-color: var(--btn-anicolor1);
+  }
+  50%{
+    background-color: var(--btn-anicolor2);
+  }
+  90%{
+    background-color: var(--btn-anicolor3);
+  }
+}
+.modal-content{
+  background-color: var(--modal-bgcolor);
+  color: var(--modal-txtcolor);
+}
+.modal-content a{
+  color: var(--modal-acolor);
+  text-decoration: none;
+  font-size: 1.5vw; 
+}
+footer{
+  background-image: var(--gradient-footer);
+}
+/*-----CLOUDS COLOR--------*/
+.cloud1 {
+	top: 0px;
+  z-index: 0;
+  fill: var( --clouds-color);
+  /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode */
+  -webkit-animation: move 25s linear infinite;
+  -moz-animation: move 25s linear infinite;
+  -o-animation: move 25s linear infinite;
+  animation: move 25s linear infinite;
+}
+
+.cloud2 {
+	top: -60px;
+    z-index: 0;
+  fill:var( --clouds-color);
+  -webkit-animation: move 25s linear 7s infinite backwards;
+  -moz-animation: move 25s linear 7s infinite backwards;
+  -o-animation: move 25s linear 7s infinite backwards;
+  animation: move 25s linear 7s infinite backwards;
+}
+.cloud3 {
+	top: 0px;
+    z-index: 0;
+  fill:var( --clouds-color);
+  -webkit-animation: move 30s linear 8s infinite backwards;
+  -moz-animation: move 30s linear 8s infinite backwards;
+  -o-animation: move 30s linear 8s infinite backwards;
+  animation: move 30s linear 8s infinite backwards;
+}
+
+@-webkit-keyframes move {
+  from {-webkit-transform: translateX(-400px);}
+  to {-webkit-transform: translateX(1350px);}
+}
+/*-----CLOUDS COLOR--------*/
+
+
+.theme-switch-wrapper {
+    display: flex;
+    position: absolute;
+  
+    em {
+      position: absolute;
+      margin-left: 60px;
+      font-size: 1rem;
+    }
+  }
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: absolute;
+    width: 60px;
+  }
+  
+  .theme-switch input {
+    display:none;
+  }
+  
+  .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background-color: #000000;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
