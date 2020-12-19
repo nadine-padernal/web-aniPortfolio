@@ -13,7 +13,8 @@ $module = (isset($_GET['mod']) && $_GET['mod'] != '') ? $_GET['mod'] : '';
 
 <body>
     <div id="content">
-      <h1>ME, MYSELF, & 1</h1>
+      <h1> Noelle Nadine G. Padernal</h1>
+      <h3> BSIT 3-A</h3>
     </div>
 </body>
 
