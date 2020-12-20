@@ -503,6 +503,76 @@ context.closePath();
   
   }
 }
+      function canvasEight(){
+    if (!canvasSupport()) {
+      return;
+    }else{
+      var theCanvas = document.getElementById("canvasMailBox");
+      var context = theCanvas.getContext("2d");
+      
+      var cornerRadius = 10;
+}
+  drawScreen();
+  function drawScreen() {
+  //make changes here.
+  context.fillStyle = '#ffffff';
+  context.fillRect(0, 0, 200, 200);
+    
+  context.lineJoin = "round";
+  context.lineWidth = cornerRadius;
+    
+    context.beginPath();
+  context.strokeStyle = "#8a6e41";
+  context.fillStyle = "#523c19";
+  context.lineWidth = 3;  
+  context.fillRect(100, 130, 30, 80);
+  context.fill();
+  context.stroke();  
+  context.closePath();
+    
+    context.beginPath();
+  context.strokeStyle = "#a3820a";
+  context.fillStyle="#0a6da3";  
+  context.lineWidth = 5;
+  context.moveTo(10, 130);
+  context.lineTo(65, 145);
+  context.lineTo(190, 110);
+  context.lineTo(190, 60);
+  context.quadraticCurveTo(190,15,160,20); 
+  context.lineTo(40, 50); 
+  context.quadraticCurveTo(10,60,10,80);
+  context.lineTo(10, 132);
+  context.closePath();  
+  context.stroke();
+  context.fill();
+    
+  context.beginPath();
+  context.strokeStyle = "#a3820a";
+  context.lineWidth = 4;
+  context.moveTo(38, 50); 
+  context.quadraticCurveTo(60,60,65,80); 
+  context.lineTo(65, 147);  
+  context.moveTo(43, 50);
+  context.quadraticCurveTo(65,55,73,80); 
+  context.lineTo(73, 145);   
+  context.stroke();
+    
+    context.beginPath();
+  context.strokeStyle = "#a3820a";
+  context.fillStyle="#780a30";  
+  context.lineWidth = 4;
+  context.moveTo(100, 90);
+  context.lineTo(160, 70);
+  context.lineTo(162, 100);
+  context.lineTo(145, 105);
+  context.lineTo(143, 90);
+  context.lineTo(100, 100);  
+  context.stroke();
+   context.closePath();  
+  context.stroke();
+  context.fill(); 
+  }
+}
         </script>
   </head>
   <body>
@@ -542,7 +612,7 @@ context.closePath();
 </canvas>
 </div>
 <div style="position: absolute; top: 300px; left: 800px;">
-<canvas id="canvasOne" width="200" height="200"style="border: 3px solid #000000;">
+<canvas id="canvasMailBox" width="200" height="200"style="border: 3px solid #000000;">
 
 </canvas>
 </div>
