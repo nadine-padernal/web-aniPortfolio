@@ -272,7 +272,7 @@ svg text {
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
 }
-p{
+.abt p{
   padding: 0% 12%;
   font-family: 'Merriweather', serif;
   color: #e1fcf9;
