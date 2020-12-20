@@ -25,7 +25,7 @@ $module = (isset($_GET['mod']) && $_GET['mod'] != '') ? $_GET['mod'] : '';
 	    </text>
     </svg>
 </div>	
-    <p> As of December 2020, I'm a 20 year old, third year Information Technology student. I have prior knowledge about Computer Hardware Servicing and a beginner in AutoCAD. My skills on designing websites had drastically improve compared to my first couple of years as a college student. There are still a lot left for me to learn and room for improvement. <br><br>"Never stop learning, because life never stops teaching." </p>
+    <p class="abt"> As of December 2020, I'm a 20 year old, third year Information Technology student. I have prior knowledge about Computer Hardware Servicing and a beginner in AutoCAD. My skills on designing websites had drastically improve compared to my first couple of years as a college student. There are still a lot left for me to learn and room for improvement. <br><br>"Never stop learning, because life never stops teaching." </p>
     </div>
 </body>
 
